@@ -1,42 +1,56 @@
-git£º
-1:ÅäÖÃ
-(1)²é¿´ÅäÖÃĞÅÏ¢
+gitï¼š
+1:é…ç½®
+(1)æŸ¥çœ‹é…ç½®ä¿¡æ¯
 git config --list
-(2)ÅäÖÃÈ«¾ÖÃû³Æ
+(2)é…ç½®å…¨å±€åç§°
 git config --global user.name "shisongbin"
-(3)ÅäÖÃÈ«¾ÖÓÊÏä
+(3)é…ç½®å…¨å±€é‚®ç®±
 git config --global user.email "shisongbin@foxmail.com"
 
-2£ºbash³£ÓÃÃüÁî
-ÍË³ö: :q
-×îÉÏ: gg
-×îÏÂ: G
-ËÑË÷: /
-ÏòÏÂ: n
-ÏòÉÏ: N
+2ï¼šbashå¸¸ç”¨å‘½ä»¤
+é€€å‡º: :q
+æœ€ä¸Š: gg
+æœ€ä¸‹: G
+æœç´¢: /
+å‘ä¸‹: n
+å‘ä¸Š: N
 
-3£ºgit±¾µØ²Ö¿âÃüÁî
-²Ö¿â(Repertory) (git init / git clone [url])-> ¹¤×÷Çø(workspace) git status  git add ÎÄ¼ş-> Ôİ´æÇø(cached)  -> ²Ö¿â(Repertory)
+3ï¼šgitæœ¬åœ°ä»“åº“å‘½ä»¤
+ä»“åº“(Repertory) (git init / git clone [url])-> å·¥ä½œåŒº(workspace) git status  git add æ–‡ä»¶-> æš‚å­˜åŒº(cached)  -> ä»“åº“(Repertory)
 
-(1)´´½¨²Ö¿â
-Ö±½ÓÔÚÄ¿Â¼µ×ÏÂ´´½¨git init »òÔò ÔÚgithubÉÏÏÂÔØ
+(1)åˆ›å»ºä»“åº“
+ç›´æ¥åœ¨ç›®å½•åº•ä¸‹åˆ›å»ºgit init æˆ–åˆ™ åœ¨githubä¸Šä¸‹è½½
 
-(2)×´Ì¬²é¿´
+(2)çŠ¶æ€æŸ¥çœ‹
 git status
 
-(3)±£³ÖÔİ´æÇø
-git add ÎÄ¼ş
+(3)ä¿æŒæš‚å­˜åŒº
+git add æ–‡ä»¶
 
-(4)Ìá½»²Ö¿â
-git commit -m "±¸×¢"
+(4)æäº¤ä»“åº“
+git commit -m "å¤‡æ³¨"
 
-git commit -a -m "Ö±½ÓÌá½»²Ö¿â£¬Ç°ÌáÊÇ²Ö¿âÒÑ¾­ÓĞÕâ¸öÎÄ¼ş"
+git commit -a -m "ç›´æ¥æäº¤ä»“åº“ï¼Œå‰ææ˜¯ä»“åº“å·²ç»æœ‰è¿™ä¸ªæ–‡ä»¶"
 
-(5)²é¿´ÎÄ¼ş°æ±¾ÃüÁî
-git show ÎÄ¼ş°æ±¾ºÅ
+(5)æŸ¥çœ‹æ–‡ä»¶ç‰ˆæœ¬å‘½ä»¤
+git show æ–‡ä»¶ç‰ˆæœ¬å·
 
-4£ºgitÔ¶³Ì²Ö¿âÃüÁî
-Ô¶³Ì²Ö¿â(remote) -> ²Ö¿â(Repertory) (git init / git clone [url])-> ¹¤×÷Çø(workspace) git status  git add ÎÄ¼ş-> Ôİ´æÇø(cached)  -> ²Ö¿â(Repertory)
-(1)²é¿´Ô¶³Ì²Ö¿â
-git remote add [Ãû×Ö] [url]
-git remote add demo https://shisongbin.github.io/git-demo
+4ï¼šgitè¿œç¨‹ä»“åº“å‘½ä»¤
+è¿œç¨‹ä»“åº“(remote) -> ä»“åº“(Repertory) (git init / git clone [url])-> å·¥ä½œåŒº(workspace) git status  git add æ–‡ä»¶-> æš‚å­˜åŒº(cached)  -> ä»“åº“(Repertory)
+(1)æŸ¥çœ‹è¿œç¨‹ä»“åº“
+git remote add [åå­—] [url]
+git remote add origin https://github.com/shisongbin/git-demo
+
+(2)å°†è¿œç¨‹ä¸‹è½½åˆ°æœ¬åœ°
+git pull origin master
+(2) å°†æœ¬åœ°åº“æ¨é€ä¸Šå»
+git push origin master
+
+(3)åˆ é™¤è¿œç¨‹ä»“åº“
+git remote remove <name>
+
+(4)å¦‚æœè¿œç¨‹ä»“åº“å·²ç»å­˜åœ¨ï¼Œè¿™æ—¶å€™éœ€è¦ç”¨åˆ°clone
+git clone https://github.com/shisongbin/git-demo
+æäº¤ç›´æ¥
+git push 
+æ›´æ–° git push
