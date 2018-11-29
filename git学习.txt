@@ -1,0 +1,42 @@
+git：
+1:配置
+(1)查看配置信息
+git config --list
+(2)配置全局名称
+git config --global user.name "shisongbin"
+(3)配置全局邮箱
+git config --global user.email "shisongbin@foxmail.com"
+
+2：bash常用命令
+退出: :q
+最上: gg
+最下: G
+搜索: /
+向下: n
+向上: N
+
+3：git本地仓库命令
+仓库(Repertory) (git init / git clone [url])-> 工作区(workspace) git status  git add 文件-> 暂存区(cached)  -> 仓库(Repertory)
+
+(1)创建仓库
+直接在目录底下创建git init 或则 在github上下载
+
+(2)状态查看
+git status
+
+(3)保持暂存区
+git add 文件
+
+(4)提交仓库
+git commit -m "备注"
+
+git commit -a -m "直接提交仓库，前提是仓库已经有这个文件"
+
+(5)查看文件版本命令
+git show 文件版本号
+
+4：git远程仓库命令
+远程仓库(remote) -> 仓库(Repertory) (git init / git clone [url])-> 工作区(workspace) git status  git add 文件-> 暂存区(cached)  -> 仓库(Repertory)
+(1)查看远程仓库
+git remote add [名字] [url]
+git remote add demo https://shisongbin.github.io/git-demo
