@@ -82,4 +82,10 @@
 var json = {"key":100};
 ```
 
+\`\`\`javascript  
+var json = {"key":100};  
+\`\`\`  
+
 这是行内代码块`var json = {"key":100};`,看出效果了吗？
+
+这是行内代码块\`var json = {"key":100};\`,看出效果了吗？
