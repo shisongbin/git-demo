@@ -43,6 +43,6 @@
 [git学习.txt](git学习.txt)  
 如果是同目录底下直接\[链接名\]\(路径\)  
 [git学习.txt](../master/git学习.txt)  
-\[git学习.txt\]\(./master/git学习.txt\)  
+\[git学习.txt\]\(../master/git学习.txt\)  
 跳转到标题
 [makedown学习.md这是无序列表](makedown学习.md#这是无序列表)  
