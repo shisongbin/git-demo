@@ -1,2 +1,12 @@
 (1)git配置
 gitignore文件配置
+
+(2)git 命令别名
+git config --global alias.st status
+git config --global alias.ci commit
+git config --global alias.ad add
+git config --global alias.br branch
+git config --global alias.hi "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+
+(3)删除git全局配置
+git config  --global --unset [key] 
