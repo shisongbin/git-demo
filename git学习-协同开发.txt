@@ -10,3 +10,22 @@ git config --global alias.hi "log --pretty=format:'%h %ad | %s%d [%an]' --graph 
 
 (3)删除git全局配置
 git config  --global --unset [key] 
+
+(4)git协议
+本地协议
+git clone file:///c/wd/test.git
+
+git协议
+git clone git://server_ip/test.git
+没有授权机制，只要开放写的权限，全部人都有写的权限
+
+http协议
+简单容易上手，传输效率没ssh协议高
+
+ssh协议
+git clone git@github.com:shisongbin/git-demo.git
+服务器比较容易搭建 ssh访问数据快
+
+生产秘钥
+ssg-keygen -t rsa -C "shisongbin@foxmail.com"
+然后把公钥放到仓库上(只要一份就好)

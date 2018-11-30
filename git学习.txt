@@ -20,6 +20,8 @@ touch newfile
 
 显示结果定向至文件
 echo "123" > newfile
+追加記錄
+echo "123" >> newfile
 清空文件
 echo "" > newfile
 
