@@ -46,3 +46,30 @@
 \[git学习.txt\]\(../master/git学习.txt\)  
 跳转到标题
 [makedown学习.md这是无序列表](makedown学习.md#这是无序列表)  
+
+---
+### 这是引用式链接
+[百度]  
+代码示例:  
+\[百度\]
+
+<\!---  下面这是引用链接  --\>  
+\[百度\]: https://www.baidu.com
+
+<!---  下面这是引用链接  -->
+[百度]: https://www.baidu.com
+
+---
+### 图片链接
+外部图片  
+\!\[百度图片\](https://www.baidu.com/img/bd_logo1.png "百度图片")
+![百度图片](https://www.baidu.com/img/bd_logo1.png "百度图片")
+
+内部图片  
+\!\[内部图片\](images1.png "内部图片")
+![内部图片](images1.png "内部图片")
+---
+
+### 引文
+> 这是一个引文.
+>> 這是多重引文
