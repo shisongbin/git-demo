@@ -27,5 +27,5 @@ git clone git@github.com:shisongbin/git-demo.git
 服务器比较容易搭建 ssh访问数据快
 
 生产秘钥
-ssg-keygen -t rsa -C "shisongbin@foxmail.com"
+ssh-keygen -t rsa -C "shisongbin@foxmail.com"
 然后把公钥放到仓库上(只要一份就好)
