@@ -111,7 +111,7 @@ git diff tags名称  和tags差异
 5.9 git reset 回撤
 git reset HEAD 撤回缓冲区到工作目录
 
-git reset HEAD --soft 撤回提交到缓冲区
+git reset HEAD~1 --soft 撤回提交到缓冲区
 
 git reset HEAD --hard 撤回提交
 
