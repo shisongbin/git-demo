@@ -97,6 +97,20 @@ git log 文件 查看某一个文件日志
 git log --grep 备注type
 
 5.8 git diff 查看版本差异
+查看历史版本差异
+git diff 版本号(早) 版本号(后)
 
+git diff --cached 和缓冲区差异
 
+git diff --cached 版本号 和缓冲区差异
 
+git diff 和工作目录差异
+
+git diff tags名称  和tags差异
+
+5.9
+git reset HEAD 撤回缓冲区到工作目录
+
+git reset HEAD --soft 撤回提交到缓冲区
+
+git reset HEAD --hard 撤回提交
