@@ -61,3 +61,42 @@ git add . 全部
 
 git add -p 文件名
 
+5.5git commit 备注规范
+
+当只有 git commit 
+这时候就进入编辑备注
+
+主流规范:google angular 规范
+
+<type>(<scope>): <subject>
+//空一行
+<Body>
+//空一行
+<footer>//正常是关闭bug备注 Closes #234
+
+type:
+feat:新功能(feature)
+fix:修复bug
+docs:文档
+style:格式修改不涉及代码变更
+refactor:重构
+test:增加测试
+chore:构建过程辅助工具变更
+
+详细介绍：http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
+
+5.6 git查看版本 变更信息
+git show HEAD 查看最新版本
+
+git show head~2 前个版本
+
+git show 版本号 
+
+5.7 git日志
+git log 文件 查看某一个文件日志
+git log --grep 备注type
+
+5.8 git diff 查看版本差异
+
+
+
