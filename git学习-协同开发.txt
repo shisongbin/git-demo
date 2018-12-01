@@ -57,3 +57,7 @@ git mv 移动
 git add A文件 B文件 C文件
 git add . 全部
 
+一个文件多次提及
+
+git add -p 文件名
+
