@@ -2,7 +2,7 @@
 gitignore文件配置
 
 (2)git 命令别名
-git config --global alias.st status
+git config --global alias.st "status -sb"
 git config --global alias.ci commit
 git config --global alias.ad add
 git config --global alias.br branch
@@ -29,3 +29,31 @@ git clone git@github.com:shisongbin/git-demo.git
 生产秘钥
 ssh-keygen -t rsa -C "shisongbin@foxmail.com"
 然后把公钥放到仓库上(只要一份就好)
+
+
+(5)git 常用命令
+5.1 git help
+
+查看版本
+git blame 文件名
+查看一个文件更新历史
+
+查看 5~10喊的文件更新版本历史
+git blame -L 5,10 文件名 
+
+5.2 git clean 
+git clean -n  列出不在版本的文件
+git clean -f  清空不在版本的文件
+git clean -x -f 清空不在版本的文件（包括gitignore文件）
+
+5.3 git status -sb
+git状态简写
+
+5.4 git 其他操作文件命令
+git add 新增
+git rm 删除 
+git mv 移动
+
+git add A文件 B文件 C文件
+git add . 全部
+
