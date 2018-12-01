@@ -108,9 +108,18 @@ git diff 和工作目录差异
 
 git diff tags名称  和tags差异
 
-5.9
+5.9 git reset 回撤
 git reset HEAD 撤回缓冲区到工作目录
 
 git reset HEAD --soft 撤回提交到缓冲区
 
 git reset HEAD --hard 撤回提交
+
+5.10 git tag 标签
+git tag 查看标签
+git tag -d 标签名 删除
+
+最新版本打标签 
+git tag 标签名
+git tag 标签名 -m 备注 
+git tag 标签名 版本号 -m 备注 
