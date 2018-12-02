@@ -1,66 +1,67 @@
 1.git branch
-(1)²é¿´·ÖÖ§
+(1)æŸ¥çœ‹åˆ†æ”¯
 git branch
-(2)´´½¨·ÖÖ§
-git branch ·ÖÖ§Ãû
-(3)ÇÐ»»·ÖÖ§
-git checkout ·ÖÖ§Ãû //ÇÐ»»·ÖÖ§Ò»¶¨ÐèÒªcommitÌá½»²Å¿ÉÒÔ
-git checkout -b ·ÖÖ§Ãû  ÇÐ»»ÐÂ½¨·ÖÖ§
-(4)ºÏ²¢
-git merge ·ÖÖ§Ãû
-(5)É¾³ý
-git branch -D ·ÖÖ§Ãû
-(6)ÐÞ¸Ä·ÖÖ§Ãû×Ö
-git branch -m ¾É·ÖÖ§Ãû ÐÂ·ÖÖ§Ãû
-git branch -M ¾É·ÖÖ§Ãû ÐÂ·ÖÖ§Ãû
-(6)É¾³ý·ÖÖ§
-git branch -d ¾É·ÖÖ§Ãû ÐÂ·ÖÖ§Ãû //Ã»ÓÐmerge¹ý²»ÈÃÉ¾
-git branch -D ¾É·ÖÖ§Ãû ÐÂ·ÖÖ§Ãû 
+(2)åˆ›å»ºåˆ†æ”¯
+git branch åˆ†æ”¯å
+(3)åˆ‡æ¢åˆ†æ”¯
+git checkout åˆ†æ”¯å //åˆ‡æ¢åˆ†æ”¯ä¸€å®šéœ€è¦commitæäº¤æ‰å¯ä»¥
+git checkout -b åˆ†æ”¯å  åˆ‡æ¢æ–°å»ºåˆ†æ”¯
+(4)åˆå¹¶
+git merge åˆ†æ”¯å
+(5)åˆ é™¤
+git branch -D åˆ†æ”¯å
+(6)ä¿®æ”¹åˆ†æ”¯åå­—
+git branch -m æ—§åˆ†æ”¯å æ–°åˆ†æ”¯å
+git branch -M æ—§åˆ†æ”¯å æ–°åˆ†æ”¯å
+(6)åˆ é™¤åˆ†æ”¯
+git branch -d æ—§åˆ†æ”¯å æ–°åˆ†æ”¯å //æ²¡æœ‰mergeè¿‡ä¸è®©åˆ 
+git branch -D æ—§åˆ†æ”¯å æ–°åˆ†æ”¯å 
+åˆ é™¤è¿œç¨‹åˆ†æ”¯ï¼šgit push origin --delete åˆ†æ”¯åï¼ˆremotes/origin/åˆ†æ”¯åï¼‰
 
 (6)
-²é¿´ºÏ²¢·ÖÖ§
+æŸ¥çœ‹åˆå¹¶åˆ†æ”¯
 git branch --merged
-²é¿´Ã»ºÏ²¢·ÖÖ§
+æŸ¥çœ‹æ²¡åˆå¹¶åˆ†æ”¯
 git branch --no-merged
 
-2:³åÍ»½â¾ö
-³åÍ»commit ²»Òª¼Ómessage 
-(1) git merge ·ÖÖ§
-(2)²é¿´·ÖÖ§³åÍ»×´Ì¬ git st
-³öÏÖUU´ú±í³åÍ»
-(3)Ìí¼Ó³åÍ»ÎÄ¼þ
-git add ÎÄ¼þÃû
+2:å†²çªè§£å†³
+å†²çªcommit ä¸è¦åŠ message 
+(1) git merge åˆ†æ”¯
+(2)æŸ¥çœ‹åˆ†æ”¯å†²çªçŠ¶æ€ git st
+å‡ºçŽ°UUä»£è¡¨å†²çª
+(3)æ·»åŠ å†²çªæ–‡ä»¶
+git add æ–‡ä»¶å
 git commit 
 
-3.Ô¶³Ì·ÖÖ§
+3.è¿œç¨‹åˆ†æ”¯
 git branch -r
 git checkout -b feature-branch origin/feature-branch 
-ÍÆËÍÔ¶³Ì·ÖÖ§
-git push origin ±¾µØ·ÖÖ§Ãû:Ô¶³Ì·ÖÖ§Ãû
+æŽ¨é€è¿œç¨‹åˆ†æ”¯
+git push origin æœ¬åœ°åˆ†æ”¯å:è¿œç¨‹åˆ†æ”¯å
 
 4.git push
-git pull --rebase ±ÜÃâÈý·½ºÏ²¢
-Èç¹û³åÍ»
-ÐèÒªÐÞ¸Ämerge
-git add //²»ÐèÒª commit
-git rebase --continue //rebase¼ÌÐø ²»Èý·½ºÏ²¢
-//Èç¹û¼ÌÐø²»ÏÂÈ¥
-git rebase --abort //Á÷²úµô£¬»Øµ½git pullÇ°×´Ì¬
+git pull --rebase é¿å…ä¸‰æ–¹åˆå¹¶
+å¦‚æžœå†²çª
+éœ€è¦ä¿®æ”¹merge
+git add //ä¸éœ€è¦ commit
+git rebase --continue //rebaseç»§ç»­ ä¸ä¸‰æ–¹åˆå¹¶
+//å¦‚æžœç»§ç»­ä¸ä¸‹åŽ»
+git rebase --abort //æµäº§æŽ‰ï¼Œå›žåˆ°git pullå‰çŠ¶æ€
 git push
 
-5:¼¯ÖÐÊ½¹¤×÷Á÷
+5:é›†ä¸­å¼å·¥ä½œæµ
 
 master 
 A1-- > A2 -- git add, commit, push -- > A1,A2
     -- > B1 -- git add, commit, pull --rebase , add , rebase --continue,push -- > A1,A2,B1
 
-6:¹¦ÄÜ·ÖÖ§¹¤×÷Á÷ /gitflow·ÖÖ§
+6:åŠŸèƒ½åˆ†æ”¯å·¥ä½œæµ /gitflowåˆ†æ”¯
 
-master//Ö÷¸É·ÖÖ§
+master//ä¸»å¹²åˆ†æ”¯
 A1 ----------------------------------------------->TAG1----------------------A1.2.1
-						fix//ÐÞ¸´·ÖÖ§															
-dev//¿ª·¢·ÖÖ§
-A1--------------A1.1-----------A1.2------------->·¢²¼----------------------->A1.2.1
-feat//¹¦ÄÜ·ÖÖ§
+						fix//ä¿®å¤åˆ†æ”¯															
+dev//å¼€å‘åˆ†æ”¯
+A1--------------A1.1-----------A1.2------------->å‘å¸ƒ----------------------->A1.2.1
+feat//åŠŸèƒ½åˆ†æ”¯
 A1------------>A1.1--delete
 A1----------------------------->A1.2--delete
