@@ -5,13 +5,34 @@ git branch
 git branch 分支名
 (3)切换分支
 git checkout 分支名 //切换分支一定需要commit提交才可以
+git checkout -b 分支名  切换新建分支
 (4)合并
 git merge 分支名
 (5)删除
 git branch -D 分支名
+(6)修改分支名字
+git branch -m 旧分支名 新分支名
+git branch -M 旧分支名 新分支名
+(6)删除分支
+git branch -d 旧分支名 新分支名 //没有merge过不让删
+git branch -D 旧分支名 新分支名 
+
+(6)
+查看合并分支
+git branch --merged
+查看没合并分支
+git branch --no-merged
 
 2:冲突解决
 冲突commit 不要加message 
 (1) git merge 分支
 (2)查看分支冲突状态 git st
 出现UU代表冲突
+(3)添加冲突文件
+git add 文件名
+git commit 
+
+3.远程分支
+git branch -r
+git checkout -t origin/分支名
+
