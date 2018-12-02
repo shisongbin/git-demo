@@ -1,0 +1,7 @@
+1.git branch
+(1)查看分支
+git branch
+(2)创建分支
+git branch 分支名
+(3)切换分支
+git checkout 分支名
