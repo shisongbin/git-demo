@@ -12,3 +12,6 @@ git branch -D 分支名
 
 2:冲突解决
 冲突commit 不要加message 
+(1) git merge 分支
+(2)查看分支冲突状态 git st
+出现UU代表冲突
