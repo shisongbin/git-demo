@@ -25,6 +25,7 @@ echo "123" >> newfile
 清空文件
 echo "" > newfile
 
+dd删除整行
 3：git本地仓库命令
 仓库(Repertory) (git init / git clone [url])-> 工作区(workspace) git status  git add 文件-> 暂存区(cached)  -> 仓库(Repertory)
 
