@@ -17,7 +17,7 @@ git branch -M 旧分支名 新分支名
 git branch -d 旧分支名 新分支名 //没有merge过不让删
 git branch -D 旧分支名 新分支名 
 删除远程分支：git push origin --delete 分支名（remotes/origin/分支名）
-
+查看远程分支状态git remote prune origin（远程删了，本地可能还会看见）
 (6)
 查看合并分支
 git branch --merged
