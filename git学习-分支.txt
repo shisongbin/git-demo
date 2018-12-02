@@ -48,3 +48,10 @@ git rebase --continue //rebase继续 不三方合并
 git rebase --abort //流产掉，回到git pull前状态
 git push
 
+5:集中式工作流
+
+master 
+A1-- > A2 -- git add, commit, push -- > A1,A2
+    -- > B1 -- git add, commit, pull --rebase , add , rebase --continue,push -- > A1,A2,B1
+
+6:功能分支工作流
