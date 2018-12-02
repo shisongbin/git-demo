@@ -4,8 +4,7 @@ git branch
 (2)创建分支
 git branch 分支名
 (3)切换分支
-<<<<<<< HEAD
-git checkout 分支名
+git checkout 分支名 //切换分支一定需要commit提交才可以
 (4)合并
 git merge 分支名
 (5)删除
@@ -13,6 +12,3 @@ git branch -D 分支名
 
 2:冲突解决
 冲突commit 不要加message 
-=======
-git checkout 分支名
->>>>>>> eb50f359863ee5cc8ebdda4047e2dd81a151265c
