@@ -34,5 +34,17 @@ git commit
 
 3.远程分支
 git branch -r
-git checkout -t origin/分支名
+git checkout -b feature-branch origin/feature-branch 
+推送远程分支
+git push origin 本地分支名:远程分支名
+
+4.git push
+git pull --rebase 避免三方合并
+如果冲突
+需要修改merge
+git add //不需要 commit
+git rebase --continue //rebase继续 不三方合并
+//如果继续不下去
+git rebase --abort //流产掉，回到git pull前状态
+git push
 
