@@ -7,6 +7,8 @@ git config --global alias.ci commit
 git config --global alias.ad add
 git config --global alias.br branch
 git config --global alias.hi "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+git config --global alias.fr fetch rebase
+
 
 (3)É¾³ıgitÈ«¾ÖÅäÖÃ
 git config  --global --unset [key] 
